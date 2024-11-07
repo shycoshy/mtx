@@ -5,8 +5,7 @@ int main()
     int a = 0;
     int b = 0;
 
-    std::cin >> a;
-    std::cin >> b;
+    std::cin >> a >> b;
     if (std::cin.fail()) { std::cerr << "input fail" << std::endl; return 1; }
 
     int** mtx = nullptr;
